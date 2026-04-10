@@ -3,6 +3,10 @@
 A Machine Learning based web application that predicts the winning probability of IPL teams based on real-time match inputs.
 
 ---
+## 🚀 Live Demo
+https://ipl-win-predictor-ajv8.onrender.com
+
+----
 
 ## 📸 Screenshot
 ![App Screenshot](Screenshot.png)
@@ -10,10 +14,10 @@ A Machine Learning based web application that predicts the winning probability o
 ---
 
 ## 🚀 Features
-- Real-time win probability prediction
-- Clean and responsive UI
-- Flask-based web application
-- Machine Learning model using Scikit-learn
+- Predict IPL match win probability in real-time
+- Interactive UI with team and match inputs
+- Machine learning powered predictions
+- Fast and responsive web interface
 
 ---
 
