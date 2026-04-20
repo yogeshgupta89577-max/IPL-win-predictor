@@ -5,7 +5,9 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load model
-pipe = pickle.load(open('pipe.pkl','rb'))
+import joblib
+
+pipe = joblib.load('model.pkl')
 
 teams = ['Sunrisers Hyderabad','Mumbai Indians','Royal Challengers Bangalore',
          'Kolkata Knight Riders','Kings XI Punjab','Chennai Super Kings',
