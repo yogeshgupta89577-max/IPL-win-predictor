@@ -1,6 +1,30 @@
+# Virtual Environment
+venv/
+myenv/
+stable_env/
+
+# Python cache
 __pycache__/
 *.pyc
-myenv/
-venv/
+*.pyo
+*.pyd
+
+# Environment variables
 .env
-stable_env/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Build files
+build/
+dist/
